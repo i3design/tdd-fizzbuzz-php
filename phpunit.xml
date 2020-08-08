@@ -1,7 +1,13 @@
-<phpunit bootstrap="vendor/autoload.php">
-    <testsuites>
-      <testsuite name="fizzbuzz">
-        <directory>tests</directory>
-      </testsuite>
-    </testsuites>
-  </phpunit>
+<?xml version="1.0"?>
+<phpunit>
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">./src/</directory>
+    </include>
+  </coverage>
+  <testsuites>
+    <testsuite name="fizzbuzz">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

@@ -19,6 +19,7 @@ class FizzBuzzTest extends TestCase
 
     /**
      * @test
+     * @group それ以外は数値を文字列に変換する
      */
     public function _1を文字列1に変換する()
     {
@@ -27,6 +28,7 @@ class FizzBuzzTest extends TestCase
 
     /**
      * @test
+     * @group 3の倍数はFizzに変換する
      */
     public function _3をFizzに変換する()
     {
@@ -35,6 +37,7 @@ class FizzBuzzTest extends TestCase
 
     /**
      * @test
+     * @group 5の倍数はBuzzに変換する
      */
     public function _5をBuzzに変換する()
     {
