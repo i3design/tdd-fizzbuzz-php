@@ -1,0 +1,12 @@
+{
+    "name": "ixbox/tdd-fizzbuzz-php",
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FizzBuzz\\": "src"
+        }
+    }    
+}
