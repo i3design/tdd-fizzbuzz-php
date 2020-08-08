@@ -6,8 +6,15 @@ namespace FizzBuzz;
 
 class FizzBuzz
 {
-    public function convert(int $t): string
+    public function convert(int $i): string
     {
-        return "1";
+        if ($i % 3 === 0) {
+            return "Fizz";
+        }
+        if ($i % 5 === 0) {
+            return "Buzz";
+        }
+
+        return (string) $i;
     }
 }
